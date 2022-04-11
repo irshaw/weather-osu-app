@@ -1,0 +1,28 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url(./leafs.jpg);
+    background-size: 120% 120%;
+    background-position: center;
+    opacity: 40;
+    text-align: center
+    
+    
+  }
+  header{
+padding: 30px,30px;
+
+  }
+  
+  H1,h2,h3,h4,h5,h6, p{
+    color: #fff;
+    text-align: center;
+  }
+  
+ 
+  .dis {
+    margin-top:10;
+    margin-bottom:10px;
+    border-top:10px;
+    border-color: transparent;
+    }
+  
