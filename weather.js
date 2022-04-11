@@ -15,9 +15,10 @@ let weather = {
   showWeather: function (data) {
     const { name } = data;
     const { temp, humidity } = data.main;
-    document.querySelector("city") = name;
-    document.querySelector("temp") = temp + "°F";
-    document.querySelector("humidity")= "Humidity: " + humidity + "%";
+    // selectors for city/temp/humidity
+    document.querySelector("city") = "name";
+    document.querySelector("temp") = "temp" + "°F";
+    document.querySelector("humidity")= "Humidity" + "%";
     
     }, // search input for searchbar 
     search: function () {
