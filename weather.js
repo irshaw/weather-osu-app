@@ -9,7 +9,7 @@ let weather = {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q"={name}&appid={"5df8ea44c4bcb7211481e4ce56045ffb"}
     )
-    .then((data) => this.displayWeather(data));
+    .then((data) => this.showWeather(data));
   },
 // use to display tmep and humidity by city 
   showWeather: function (data) {
